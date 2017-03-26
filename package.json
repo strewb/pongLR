@@ -1,0 +1,23 @@
+{
+  "name": "testProjset",
+  "version": "0.2.5",
+  "description": "Test project",
+
+  "main": "app.js",
+  
+    "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "5.9.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tiboeth/testProjset"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

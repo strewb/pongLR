@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tilt pong</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <audio preload="true" id="collide">
+	         <source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.mp3" />
+	         <source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.wav" />
+    </audio>
+    
+  </head>
+  <body>
+
+    <div id="container">
+      <button id="set-host">HOST</button>
+      <button id="set-player">Player</button>
+    </div>
+
+    <script src="/js/game.js"></script>
+  </body>
+</html>
